@@ -1,0 +1,6 @@
+[
+  { "id": 1, "name": "Nasi Goreng Rempah", "price": "Rp 25.000", "image": "https://images.unsplash.com/photo-1512132411229-c30391241dd8?w=500&q=80" },
+  { "id": 2, "name": "Sate Ayam Madura", "price": "Rp 30.000", "image": "https://images.unsplash.com/photo-1599043513900-ed6fe01d3833?w=500&q=80" },
+  { "id": 3, "name": "Mie Goreng Spesial", "price": "Rp 22.000", "image": "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?w=500&q=80" },
+  { "id": 4, "name": "Ayam Bakar Madu", "price": "Rp 35.000", "image": "https://images.unsplash.com/photo-1626844131082-256783844137?w=500&q=80" }
+]

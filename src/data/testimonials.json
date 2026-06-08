@@ -1,0 +1,32 @@
+[
+  { 
+    "id": 1, 
+    "name": "Budi Santoso", 
+    "review": "Aplikasi yang sangat membantu untuk cari makanan sedap!", 
+    "avatar": "https://picsum.photos/200?random=1" 
+  },
+  { 
+    "id": 2, 
+    "name": "Siti Aminah", 
+    "review": "Harganya pas di kantong, rasanya bintang lima.", 
+    "avatar": "https://picsum.photos/200?random=2" 
+  },
+  { 
+    "id": 3, 
+    "name": "Andi Wijaya", 
+    "review": "Sangat direkomendasikan buat mahasiswa yang mager masak.", 
+    "avatar": "https://picsum.photos/200?random=3" 
+  },
+  { 
+    "id": 4, 
+    "name": "Rina Nose", 
+    "review": "Pilihan menunya banyak dan tampilannya sangat menggugah selera.", 
+    "avatar": "https://picsum.photos/200?random=4" 
+  },
+  { 
+    "id": 5, 
+    "name": "Joko Anwar", 
+    "review": "Website-nya cepat dan gampang banget dipakainya. Mantap Sedap!", 
+    "avatar": "https://picsum.photos/200?random=5" 
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "Nasi Goreng Spesial Rempah Nusantara",
+    "category": "Main Course",
+    "image": "https://images.unsplash.com/photo-1512132411229-c30391241dd8?w=800&q=80",
+    "author": "Chef Owen",
+    "date": "15 May 2026",
+    "excerpt": "Perpaduan nasi pilihan dengan bumbu rempah autentik, kecap manis berkualitas, telur mata sapi, dan kerupuk udang yang renyah. Aroma sedap yang tak tertandingi."
+  },
+  {
+    "id": 2,
+    "title": "Sate Ayam Madura Bumbu Kacang Kental",
+    "category": "Street Food",
+    "image": "https://images.unsplash.com/photo-1599043513900-ed6fe01d3833?w=800&q=80",
+    "author": "Bunda Tina",
+    "date": "14 May 2026",
+    "excerpt": "Potongan daging ayam filet yang empuk, dibakar di atas arang, disajikan dengan bumbu kacang gurih kental, kecap manis, irisan bawang merah, dan lontong sedap."
+  },
+  {
+    "id": 3,
+    "title": "Es Cendol Durian Gula Aren Asli",
+    "category": "Dessert",
+    "image": "https://images.unsplash.com/photo-1610440042657-612c34d95e9f?w=800&q=80",
+    "author": "Warung Ijo",
+    "date": "13 May 2026",
+    "excerpt": "Kesegaran cendol hijau alami, santan kelapa murni, gula aren asli, dan *topping* daging durian Medan yang legit. Penutup makan malam yang sangat sedap."
+  }
+]

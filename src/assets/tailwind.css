@@ -1,0 +1,321 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Barlow";
+  src: url("/fonts/Barlow-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: "PoppinsExtraBold";
+  src: url("/fonts/Poppins/Poppins-ExtraBold.ttf");
+}
+
+@theme {
+  --font-barlow: "Barlow", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+  --font-poppins-extrabold: "PoppinsExtraBold", sans-serif;
+  --color-latar: #f3f4f6;
+  --color-teks: #374151;
+  --color-teks-samping: #6b7280;
+  --color-garis: #e5e7eb;
+  --color-hijau: #00b074;
+  --color-merah: #ef4444;
+  --color-biru: #3b82f6;
+  --color-kuning: #f59e0b;
+}
+
+/* =========================
+   SIDEBAR
+========================= */
+#sidebar {
+  @apply flex min-h-screen w-[360px] flex-col bg-white p-10 shadow-lg;
+}
+
+/* =========================
+   LOGO
+========================= */
+#sidebar-logo {
+  @apply flex flex-col;
+}
+
+#logo-title {
+  @apply text-[48px] text-gray-900 font-poppins-extrabold;
+}
+
+#logo-dot {
+  @apply text-hijau;
+}
+
+#logo-subtitle {
+  @apply font-semibold text-gray-400;
+}
+
+/* =========================
+   MENU
+========================= */
+#sidebar-menu {
+  @apply mt-10;
+}
+
+#menu-list {
+  @apply space-y-3;
+}
+.menu-link {
+  @apply flex items-center w-full no-underline text-inherit;
+}
+#menu-1,
+#menu-2,
+#menu-3,
+#menu-4 {
+  @apply flex cursor-pointer items-center rounded-xl p-4 font-medium text-gray-600 hover:bg-green-200 hover:text-hijau hover:font-extrabold;
+}
+
+/* =========================
+   FOOTER
+========================= */
+#sidebar-footer {
+  @apply mt-auto;
+}
+
+#footer-card {
+  @apply mb-10 flex items-center rounded-md bg-hijau px-4 py-2 shadow-lg;
+}
+
+#footer-text {
+  @apply text-sm text-white;
+}
+
+#add-menu-button {
+  @apply mt-3 flex items-center justify-center space-x-2 rounded-md bg-white p-2;
+}
+
+#add-menu-button span {
+  @apply flex items-center text-gray-600;
+}
+
+#footer-avatar {
+  @apply w-20 rounded-full;
+}
+
+#footer-brand {
+  @apply font-bold text-gray-400;
+}
+
+#footer-copyright {
+  @apply font-light text-gray-400;
+}
+
+/* =========================
+   HEADER LAYOUT
+========================= */
+#header-container {
+  @apply flex items-center justify-between p-4;
+}
+
+#search-bar {
+  @apply relative w-full max-w-lg;
+}
+
+#icons-container {
+  @apply flex items-center space-x-4;
+}
+
+/* =========================
+   SEARCH BAR
+========================= */
+#search-input {
+  @apply w-full max-w-lg rounded-md border border-gray-100 bg-white p-2 pr-10 outline-none;
+}
+
+#search-icon {
+  @apply absolute top-1/2 right-4 -translate-y-1/2 transform text-gray-300;
+}
+
+/* =========================
+   ICONS & PROFILE
+========================= */
+#notification-icon {
+  @apply relative cursor-pointer rounded-2xl bg-blue-100 p-3 text-blue-500;
+}
+
+#notification-badge {
+  @apply absolute top-0 right-0 translate-x-1/2 -translate-y-1/2 transform rounded-full bg-blue-200 px-2 py-1 text-xs;
+}
+
+#chart-icon {
+  @apply cursor-pointer rounded-2xl bg-blue-100 p-3;
+}
+
+#settings-icon {
+  @apply cursor-pointer rounded-2xl bg-red-100 p-3 text-red-500;
+}
+
+#profile-container {
+  @apply flex items-center space-x-4 border-l border-gray-300 pl-4;
+}
+
+#profile-avatar {
+  @apply h-10 w-10 rounded-full;
+}
+
+/* =========================
+   PAGE HEADER
+========================= */
+#pageheader-container {
+  @apply flex items-center justify-between p-4;
+}
+
+/* =========================
+   LEFT SIDE
+========================= */
+#pageheader-left {
+  @apply flex flex-col;
+}
+
+#pageheader-title {
+  @apply text-3xl font-semibold;
+}
+#page-title {
+    @apply font-extrabold;
+}
+#breadcrumb-links {
+  @apply mt-2 flex items-center space-x-2 font-medium;
+}
+
+#breadcrumb-home {
+  @apply text-gray-500;
+}
+
+#breadcrumb-separator {
+  @apply text-gray-500;
+}
+
+#breadcrumb-current {
+  @apply text-gray-500;
+}
+
+/* =========================
+   RIGHT SIDE
+========================= */
+#add-button {
+  @apply rounded-lg bg-hijau px-4 py-2 text-white;
+}
+
+/* =========================
+   DASHBOARD GRID
+========================= */
+#dashboard-grid {
+  @apply grid gap-4 p-5 sm:grid-cols-2 md:grid-cols-4;
+}
+#dashboard-container {
+  @apply font-barlow;
+}
+/* =========================
+   ORDERS CARD
+========================= */
+#count-orders {
+  @apply flex items-center space-x-5 rounded-lg bg-white p-4 shadow-md;
+}
+
+#orders-info {
+  @apply flex flex-col;
+}
+
+#orders-icon {
+  @apply rounded-full bg-hijau p-4 text-3xl text-white;
+}
+
+#orders-count {
+  @apply text-2xl font-bold;
+}
+
+#orders-text {
+  @apply text-gray-400;
+}
+
+/* =========================
+   DELIVERED CARD
+========================= */
+#count-delivered {
+  @apply flex items-center space-x-5 rounded-lg bg-white p-4 shadow-md;
+}
+
+#delivered-info {
+  @apply flex flex-col;
+}
+
+#delivered-icon {
+  @apply rounded-full bg-biru p-4 text-3xl text-white;
+}
+
+#delivered-count {
+  @apply text-2xl font-bold;
+}
+
+#delivered-text {
+  @apply text-gray-400;
+}
+
+/* =========================
+   CANCELED CARD
+========================= */
+#count-canceled {
+  @apply flex items-center space-x-5 rounded-lg bg-white p-4 shadow-md;
+}
+
+#canceled-info {
+  @apply flex flex-col;
+}
+
+#canceled-icon {
+  @apply rounded-full bg-merah p-4 text-3xl text-white;
+}
+
+#canceled-count {
+  @apply text-2xl font-bold;
+}
+
+#canceled-text {
+  @apply text-gray-400;
+}
+
+/* =========================
+   REVENUE CARD
+========================= */
+#count-revenue {
+  @apply flex items-center space-x-5 rounded-lg bg-white p-4 shadow-md;
+}
+
+#revenue-info {
+  @apply flex flex-col;
+}
+
+#revenue-icon {
+  @apply rounded-full bg-kuning p-4 text-3xl text-white;
+}
+
+#revenue-count {
+  @apply text-2xl font-bold;
+}
+
+#revenue-text {
+  @apply text-gray-400;
+}
+/* =========================
+   CUSTOMERS
+========================= */
+#Customers-container {
+  @apply font-barlow;
+}
+
+/* =========================
+   Orders
+========================= */
+#Orders-Container{
+  @apply font-barlow;
+}

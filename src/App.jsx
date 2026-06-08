@@ -11,10 +11,12 @@ import Orders from "./pages/Orders";
 import Customers from "./pages/Customers";
 import Products from "./pages/Products";
 
+
 // Pages Guest
 import GuestHome from "./pages/guest/GuestHome";
 
 import "./assets/tailwind.css";
+import Notes from "./pages/Notes";
 
 function AdminLayout() {
   return (
@@ -51,6 +53,8 @@ function App() {
         <Route path="orders" element={<Orders />} />
         <Route path="customers" element={<Customers />} />
         <Route path="products" element={<Products />} />
+        <Route path="notes" element={<Notes />} />
+      
       </Route>
 
     </Routes>

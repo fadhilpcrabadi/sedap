@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+
 @font-face {
   font-family: "Barlow";
   src: url("/fonts/Barlow-Regular.ttf");
@@ -35,6 +36,7 @@
 #sidebar {
   @apply flex min-h-screen w-[360px] flex-col bg-white p-10 shadow-lg;
 }
+
 
 /* =========================
    LOGO
@@ -318,4 +320,7 @@
 ========================= */
 #Orders-Container{
   @apply font-barlow;
+}
+@plugin "daisyui" {
+    themes: light --default, dark --prefersdark, forest;
 }
